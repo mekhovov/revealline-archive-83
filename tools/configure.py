@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Archive82's exact v0.114.1 source lock and finite inventory.
+"""Build Archive83's exact v0.115.0 source lock and finite inventory.
 
 All identities are read from the separately reviewed input-authority.json. This
 file contains no donor release-cohort constants.

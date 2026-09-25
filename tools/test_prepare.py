@@ -233,16 +233,16 @@ class CohortTests(unittest.TestCase):
 class CommittedMetadataTests(unittest.TestCase):
     def test_exact_original_metadata_and_source_qualification(self):
         lock, inventory = locked_inputs(ROOT)
-        self.assertEqual((lock['expectedFiles'], lock['expectedBytes']), (1149, 595673670))
-        self.assertEqual([r['version'] for r in lock['releases']], ['v0.114.1'])
-        self.assertEqual(inventory['base'], 'https://mekhovov.github.io/revealline-archive-82/')
+        self.assertEqual((lock['expectedFiles'], lock['expectedBytes']), (1149, 595697474))
+        self.assertEqual([r['version'] for r in lock['releases']], ['v0.115.0'])
+        self.assertEqual(inventory['base'], 'https://mekhovov.github.io/revealline-archive-83/')
         release = lock['releases'][0]
-        self.assertEqual(release['tagObject'], 'c89548424345a17701b4ac2495063d6977bde698')
-        self.assertEqual(release['sourceRevision'], 'cdefaef72e5770334dba5eb12d60f9d8587aa1a1')
-        self.assertEqual(release['sourceTree'], 'cf612f17c6fdd3da8ee9858a1d45cb6ba29a7c87')
-        self.assertEqual(release['sourceQualification'], {'bytes': 14729, 'sha256': '0a9383a47e51cec177f44ad247fb549080422fe345acf2e34a0edaa94ddd89ef', 'policyEvidence': {'path': 'publishing/test-policy.json', 'bytes': 490, 'sha256': 'b6887ba7f2b84a007b96de14fc867ac38ac8135d7c231c7ade7ebc52ba31704a'}})
-        cohort = [r for r in inventory['files'] if r['path'].startswith('releases/v0.114.1/')]
-        self.assertEqual((len(cohort), sum(r['bytes'] for r in cohort)), (1146, 595672273))
+        self.assertEqual(release['tagObject'], '02a68c18c373cbe3988dd12070adb02751815f9e')
+        self.assertEqual(release['sourceRevision'], '902da32de72d5f2772f11d2a6575f334d56c7cb8')
+        self.assertEqual(release['sourceTree'], '4af42fb9e8bebf1ea1990ce492c82cc97bdffa0e')
+        self.assertEqual(release['sourceQualification'], {'bytes': 14729, 'sha256': '35feaa6bfcc9fc951d224b17da65235dcade08db557d2e73ad57ff97427c4637', 'policyEvidence': {'path': 'publishing/test-policy.json', 'bytes': 490, 'sha256': 'b6887ba7f2b84a007b96de14fc867ac38ac8135d7c231c7ade7ebc52ba31704a'}})
+        cohort = [r for r in inventory['files'] if r['path'].startswith('releases/v0.115.0/')]
+        self.assertEqual((len(cohort), sum(r['bytes'] for r in cohort)), (1146, 595696077))
 
     def test_changed_or_wrong_identity_qualification_refuses(self):
         import shutil
