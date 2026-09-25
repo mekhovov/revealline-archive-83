@@ -8,7 +8,7 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: archive-82-pages
+  group: archive-83-pages
   cancel-in-progress: false
 jobs:
   build:
@@ -34,7 +34,7 @@ jobs:
           sparse-checkout-cone-mode: false
       - name: Fetch the original immutable release tags for identity verification
         working-directory: source
-        run: git fetch --depth=1 origin refs/tags/v0.114.1:refs/tags/v0.114.1
+        run: git fetch --depth=1 origin refs/tags/v0.115.0:refs/tags/v0.115.0
       - name: Require artifact workspace capacity
         run: |
           python3 - <<'PY'
@@ -51,24 +51,24 @@ jobs:
       - name: Extract the original ZIP and verify every member
         env:
           GH_TOKEN: ${{ github.token }}
-        run: python3 archive/tools/prepare.py --source source --out "$RUNNER_TEMP/archive82"
+        run: python3 archive/tools/prepare.py --source source --out "$RUNNER_TEMP/archive83"
       - name: Independently reread every artifact byte including hidden files
-        run: python3 archive/tools/verify.py "$RUNNER_TEMP/archive82/artifact"
+        run: python3 archive/tools/verify.py "$RUNNER_TEMP/archive83/artifact"
       - name: Retain extraction and complete-inventory receipts
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
-          name: archive82-verification-receipts
+          name: archive83-verification-receipts
           if-no-files-found: warn
           path: |
-            ${{ runner.temp }}/archive82/zip-receipt-*.json
-            ${{ runner.temp }}/archive82/receipt.json
-            ${{ runner.temp }}/archive82/expected-inventory.json
+            ${{ runner.temp }}/archive83/zip-receipt-*.json
+            ${{ runner.temp }}/archive83/receipt.json
+            ${{ runner.temp }}/archive83/expected-inventory.json
       - name: Upload complete canonical site
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
-          path: ${{ runner.temp }}/archive82/artifact
+          path: ${{ runner.temp }}/archive83/artifact
           include-hidden-files: true
   deploy:
     if: github.ref == 'refs/heads/main'

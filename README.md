@@ -1,8 +1,8 @@
-# RevealLine Archive 82
+# RevealLine Archive 83
 
-Prepared preservation infrastructure for the exact published v0.114.1 release.
+Prepared preservation infrastructure for the exact published v0.115.0 release.
 
-This new archive has zero previously accepted paths. Deployment, complete public-byte verification and scoped native acceptance are pending. The donor repository and commit in input-authority.json identify the unchanged scaffold origin; donor public-acceptance records are not Archive82 evidence. The source qualification and frozen test-policy bytes retain their original historical scope.
+This new archive has zero previously accepted paths. Deployment, complete public-byte verification and scoped native acceptance are pending. The donor repository and commit in input-authority.json identify the unchanged scaffold origin; donor public-acceptance records are not Archive83 evidence. The source qualification and frozen test-policy bytes retain their original historical scope.
 
 input-authority.json pins the fresh release/tag/source descriptors. Run python3 -B tools/configure.py --check to verify generated source-lock and inventory against those originals. To generate only a new scaffold, use --write with both output paths absent; existing files cannot be overwritten.
 

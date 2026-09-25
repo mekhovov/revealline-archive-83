@@ -1,9 +1,9 @@
 {
   "formatVersion": 1,
-  "version": "v0.114.1",
-  "sourceRevision": "cdefaef72e5770334dba5eb12d60f9d8587aa1a1",
+  "version": "v0.115.0",
+  "sourceRevision": "902da32de72d5f2772f11d2a6575f334d56c7cb8",
   "entry": "game/index.html",
-  "totalBytes": 595448673,
+  "totalBytes": 595472477,
   "files": [
     {
       "path": "_headers",
@@ -713,7 +713,7 @@
     {
       "path": "game/assets/field-kit/icons/review.html",
       "bytes": 29834,
-      "sha256": "24645e01e4cd0923514baa8c0248a7f0f3486289513af02a59cc01c996822f30"
+      "sha256": "f81b3127c9574b15341b51acb8902d32e6b8367bf1ad6201dfeff4385537f305"
     },
     {
       "path": "game/assets/field-kit/icons/review.mjs",
@@ -863,7 +863,7 @@
     {
       "path": "game/assets/field-kit/sprites/review.html",
       "bytes": 166690,
-      "sha256": "d1eec26811500d054d76d8704c6bc9dc14dc8525bda73b95bf952432353e2c83"
+      "sha256": "b0b27391df53ff84c7c14925a465713d79611adf1d3663a7190ab826f7c40a36"
     },
     {
       "path": "game/assets/field-kit/sprites/sprites.json",
@@ -933,12 +933,12 @@
     {
       "path": "game/build-config.json",
       "bytes": 5919,
-      "sha256": "787adde0c2f1f78e024b5e02b2abe3a56326dd93898dcac6ea0fa5e516ae7684"
+      "sha256": "36c1db90b6780dc1879d5ba6889e8c03049b219eb2dae9c729d157a674498f62"
     },
     {
       "path": "game/build-info.json",
       "bytes": 144,
-      "sha256": "3d3f089dec7f9cf06d8e8836e9aada149a644507bd2f258ef2100f7ef48b6597"
+      "sha256": "e094d541090040d5a571acf0508eee4515b6711263af4d935565e0661364d21a"
     },
     {
       "path": "game/campaign-contexts.mjs",
@@ -2338,7 +2338,7 @@
     {
       "path": "game/controller-lab/index.html",
       "bytes": 39625,
-      "sha256": "53748cf219687ab343195dfbf9518ebae3386105992d30dc9b0c89c1fe326822"
+      "sha256": "d226c5d3dee9fed575f99258e45d79ef7741dfcdfa2819acbb6b8c593ed4f782"
     },
     {
       "path": "game/controller-lab/lab.mjs",
@@ -2657,8 +2657,8 @@
     },
     {
       "path": "game/couch/coop-picture-bindings.mjs",
-      "bytes": 3871,
-      "sha256": "1c9eae481c800acd04550083ca50057f3e6106657b8ed741fb452bdb65027370"
+      "bytes": 3877,
+      "sha256": "d3d5e02831d48078b3d0b616dbd70377a3de2f5243c5e45caebf1395da79504c"
     },
     {
       "path": "game/couch/coop-picture-image.mjs",
@@ -2672,8 +2672,8 @@
     },
     {
       "path": "game/couch/coop-presentation.mjs",
-      "bytes": 22831,
-      "sha256": "7c08c79592b8de553d3e21279ce9e2c0a9312e64577de9ba855f17a8bba67903"
+      "bytes": 22835,
+      "sha256": "f24d0e98782d9b61b4785d94f98437412dfe317b6c42b7bb143ec46415d2c35e"
     },
     {
       "path": "game/couch/coop-rescue-presentation.mjs",
@@ -2747,8 +2747,8 @@
     },
     {
       "path": "game/couch/couch-shell.mjs",
-      "bytes": 22244,
-      "sha256": "b46d32131813254443e38c43714fd8285d82b7dcbed47acf8e37c590162a37f8"
+      "bytes": 22817,
+      "sha256": "8867d850670080c09780c5b865caaf998fb72196d8c8acbf73204092d2d99147"
     },
     {
       "path": "game/couch/couch-static-pictures.mjs",
@@ -2757,18 +2757,18 @@
     },
     {
       "path": "game/couch/couch.css",
-      "bytes": 12380,
-      "sha256": "0f746b799968bba17a629761425d8b3a8699f677f32da1c15eaf7c1c842c7e4a"
+      "bytes": 14240,
+      "sha256": "bd97a07019db6d090957ba6b59dcc29e7aa066ff80885c14563d5b0c925f98c7"
     },
     {
       "path": "game/couch/couch.mjs",
-      "bytes": 147852,
-      "sha256": "fbc38aa4e848f389678e5ce830773acbab6f18dba953d1f86fefc24a82c9b769"
+      "bytes": 148083,
+      "sha256": "37559812421996fe5f343a77daf1cd9df223165e3113d123f4d5c2957fc9e76c"
     },
     {
       "path": "game/couch/index.html",
-      "bytes": 52766,
-      "sha256": "5b78349448f10882cbaa21f2bb26141ba60143dc4e22d7676425e0f97231d6b2"
+      "bytes": 53350,
+      "sha256": "568e6cfd501bf63446115d30b4c3eeef2de280891e18367e269c61d9621e946f"
     },
     {
       "path": "game/couch/mode-entry.js",
@@ -2777,18 +2777,18 @@
     },
     {
       "path": "game/couch/relay-rescue.css",
-      "bytes": 35269,
-      "sha256": "4b5a5c86499d7bd0b778d35865e9a58e341381e616846a211f37528f99a1ed6f"
+      "bytes": 36522,
+      "sha256": "a46fe1dcada304fdeccd782b2fa6a9020f0d87ea1d849b8e49140864f428b51a"
     },
     {
       "path": "game/couch/relay-rescue.html",
-      "bytes": 56961,
-      "sha256": "634e2347856c3191624e5e7bd3844b0fa8c71b3a54b24cd0f1ab5a7f09833957"
+      "bytes": 57711,
+      "sha256": "084aab273259981c59af9bf0f556141172eaf7e0fcbbe3dd11b72873acf847e2"
     },
     {
       "path": "game/couch/relay-rescue.mjs",
-      "bytes": 187524,
-      "sha256": "9d874ad651721a6ec006e6745d10d90d7d62f71b8a93b7fcfdeaa43d5ea84bb4"
+      "bytes": 190746,
+      "sha256": "331e8af198463a455a902bb8c82ddc475dbd196112a6e40374ff26205d090b0b"
     },
     {
       "path": "game/couch/team-arena-preference.mjs",
@@ -2952,8 +2952,8 @@
     },
     {
       "path": "game/index.html",
-      "bytes": 108669,
-      "sha256": "4f78c0d6d2650a5511e481df50f853d8c6f6ae2d2c21b054c80507d03abdd488"
+      "bytes": 108642,
+      "sha256": "3529824adbd7d1f25d72f822a2526d455e02f1d4a25eaa7cfce757bb4befac17"
     },
     {
       "path": "game/input-presentation.mjs",
@@ -3248,7 +3248,7 @@
     {
       "path": "game/playground/index.html",
       "bytes": 55121,
-      "sha256": "789818c207ad29a4b4e33867daf918152f068835873348b389f3f467c1bda0e4"
+      "sha256": "ff4b19bb781c691a4f4cc45d908af37e6b24046eac8981cdc5310d42343dfd43"
     },
     {
       "path": "game/playground/map-diagnostics.mjs",
@@ -3313,7 +3313,7 @@
     {
       "path": "game/presentation/combat-review.html",
       "bytes": 29057,
-      "sha256": "2b458dfd3a4f9ebcd75705be97934b0f56dbaae50052c22eb26056dcd1d03064"
+      "sha256": "d872a736dfa815db3c1429161e8f77cfec27f19b8b74be89ad2a0e15ae728c25"
     },
     {
       "path": "game/presentation/combat-review.mjs",
@@ -3983,7 +3983,7 @@
     {
       "path": "game/presentation/compiled/manifest.json",
       "bytes": 29118,
-      "sha256": "25c4a13634a5bb8b3637de1ada4529bd17918def8194846d2ae3a9dd8064b2c7"
+      "sha256": "d8f1516ee9a648a9430ada60e115a080509507894a5a41c9ad165495cdd6afac"
     },
     {
       "path": "game/presentation/compiled/runtime.38a3c4cc207ee9b136d1cada405f74385c44f3a4a20bc21d91e09c4fc386e39f.json",
@@ -4007,13 +4007,13 @@
     },
     {
       "path": "game/presentation/compiled/runtime.json",
-      "bytes": 1084629,
-      "sha256": "5579516c7a3d4a2af6b039e2f2143995d46532b755ce77320cec5489cec687a1"
+      "bytes": 1085497,
+      "sha256": "e914854d2711b9dbde026101990e5ba48d02b155fdb0dd1d985e161cc1a05b8f"
     },
     {
       "path": "game/presentation/compiled/studio.json",
-      "bytes": 4112400,
-      "sha256": "d4d356ce76616cdb4fa23862e41ed8b23598975715e31a2d4330be3d3007cb36"
+      "bytes": 4126203,
+      "sha256": "110d58829654ccbe10c7903294b90fa2e73aa48f268dcbd3f2d5b67fff50503d"
     },
     {
       "path": "game/presentation/compiled/theme.css",
@@ -4083,7 +4083,7 @@
     {
       "path": "game/presentation/journey-actor-review.html",
       "bytes": 28259,
-      "sha256": "63dc6ab63dac1e08c9c79ed559cafe40c551462eea98691b3493db8ac3a463f7"
+      "sha256": "169b1ac88283511cc555ec13afcbe35225fef2810ca3d1edc539763c2adb0fc3"
     },
     {
       "path": "game/presentation/journey-actor-review.mjs",
@@ -4243,7 +4243,7 @@
     {
       "path": "game/profile-recovery.html",
       "bytes": 30078,
-      "sha256": "38ff18c02312297a37509750b685e80a0b6235bec1d33d5bfd1ef0ae6ec7c147"
+      "sha256": "655323a4f968bad8df43e92d781e229319ba44c0f07c5ef7a371850599886836"
     },
     {
       "path": "game/profile-recovery.mjs",
@@ -4272,8 +4272,8 @@
     },
     {
       "path": "game/release-explorer.mjs",
-      "bytes": 448,
-      "sha256": "440ca2e8344c4ab7f0053dc3248fbb357ed9bb8b1c4b9423a0988d7419e437f1"
+      "bytes": 615,
+      "sha256": "c3f9b1e6bad21207d3d71d75aee8cef4202b20ca405ac23568083e63ea6b5a6e"
     },
     {
       "path": "game/replay-actor-context.mjs",
@@ -4328,7 +4328,7 @@
     {
       "path": "game/replay-theater/index.html",
       "bytes": 36623,
-      "sha256": "11538038add633cf11ba50b0697020051bd38c08e0fff7aacb9a12bcf3ff01f5"
+      "sha256": "0bb5927b8d9c926de087d1aed80293baee4194458f23e5a49e2066324b40ceb6"
     },
     {
       "path": "game/replay-theater/navigation.mjs",
@@ -4583,7 +4583,7 @@
     {
       "path": "game/studio/index.html",
       "bytes": 106505,
-      "sha256": "40d7622b1aabd05fd130e291eb61c81727aff08e2922793904f8d064f6c69d58"
+      "sha256": "e774fe2e45128ed4c174661f763c619828db7267e4821c145fefbdd034258bac"
     },
     {
       "path": "game/studio/objective-editor.mjs",
@@ -4747,8 +4747,8 @@
     },
     {
       "path": "game/ui/controller-confirm-guard.mjs",
-      "bytes": 3089,
-      "sha256": "154f8f07218e25de003f179cf31eebd0223c3b455f237a9a89e33f80038e006b"
+      "bytes": 3507,
+      "sha256": "d15081af8f05249823f318a420a7d77190cbbe3e7ae229d14093b892f875c888"
     },
     {
       "path": "game/ui/controller-navigation.mjs",
@@ -4877,8 +4877,8 @@
     },
     {
       "path": "game/ui/field-kit-flow.css",
-      "bytes": 12160,
-      "sha256": "afd79d33a7be7622d5f6f17f496af9e5ddeeff5fed7859db078ab3bf0b95862b"
+      "bytes": 12252,
+      "sha256": "a42e8704530b3a23f25d0420b1a5c157d6fae7c7ee83e396cda39a1c34b4429b"
     },
     {
       "path": "game/ui/field-kit-fonts.css",
@@ -5493,7 +5493,7 @@
     {
       "path": "index.html",
       "bytes": 3130,
-      "sha256": "0ef303646b9b51d63f9699db65a668d1d81f35d31db5cc83863a515695213147"
+      "sha256": "183426b4963b70ea59a44eea45e900faabce59be399350f79e145070c183b2b3"
     },
     {
       "path": "manifest.webmanifest",
@@ -5503,7 +5503,7 @@
     {
       "path": "offline-cache.json",
       "bytes": 202470,
-      "sha256": "4e0ea79fb3d8304f689369a95dce585b506e50f259a0e034a7c71ccd27ca26be"
+      "sha256": "21b8e333a420275e298ea5d72cff4ddb0b6f2b59beb6620e9a28c9bd6919e9f3"
     },
     {
       "path": "optional/external-chapters/countercurrent-coupa/media.rlmedia",
@@ -5673,7 +5673,7 @@
     {
       "path": "service-worker.js",
       "bytes": 176864,
-      "sha256": "8069d1026112122873074061b4b0ea59125610c8aa456bf2b00877f4b1acbdd1"
+      "sha256": "b853c0e4e5588c573c429e89d7b3efa4a50e61ae1742a6e263fede2e52e30353"
     },
     {
       "path": "site/about-navigation.mjs",
@@ -5683,7 +5683,7 @@
     {
       "path": "site/about.html",
       "bytes": 27943,
-      "sha256": "a47f6cc2cf8a93750c690eb35dd9eebb53ddbcd87cb9038945a1e2c3ae51cd79"
+      "sha256": "958d22ee66651d4904b99b8604f628e346f4975e069a65cbcb9cbfe44b691425"
     },
     {
       "path": "site/landing.css",
